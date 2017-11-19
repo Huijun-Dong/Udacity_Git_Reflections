@@ -11,6 +11,10 @@ What value do you think it offers?
                     git commit to commit the changes to the repository
     repository -> the place where all your previous commits are stored
 
+/*     Beginning      */
+/* Useful Git Command */
+/*                    */
+
 check out a commit:  git checkout
 get all history commit: git log
 create repository: git init
@@ -20,3 +24,29 @@ get status of staging area: git status
 see difference between two commits: git diff commit_old commit_new
 compare working directory and staging area: git diff
 compare staging area and last commits in repository: git diff --staged
+
+In case you check out a previous commit and want to go back to the latest commit:
+git checkout master
+
+/*                    */
+/* Useful Git Command */
+/*     End            */
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+/*     Beginning      */
+/* Useful Git Command */
+/*                    */
+
+git branch: show all the branches in the repository
+git branch branch_name: create a new branch with branch_name as name
+git checkout branch_name: checkout the branch_name branch
+
+/*                    */
+/* Useful Git Command */
+/*     End            */
+
+What are some situations when branches would be helpful in keeping your history organized? 
+How would branches help?
+
