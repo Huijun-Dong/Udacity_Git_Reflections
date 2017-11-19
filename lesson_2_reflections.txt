@@ -6,3 +6,17 @@ How is the staging area different from the working directory and the repository?
 What value do you think it offers?
     
     
+    working directory -> current directory where you are doing your editing
+    staging area -> only after you add the file to the staging area, can you then use
+                    git commit to commit the changes to the repository
+    repository -> the place where all your previous commits are stored
+
+check out a commit:  git checkout
+get all history commit: git log
+create repository: git init
+add file to staging area: git add filename
+commit changes of files in the staging area: git commit filename
+get status of staging area: git status
+see difference between two commits: git diff commit_old commit_new
+compare working directory and staging area: git diff
+compare staging area and last commits in repository: git diff --staged
