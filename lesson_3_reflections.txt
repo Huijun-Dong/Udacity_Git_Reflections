@@ -2,8 +2,9 @@
 /* Useful Git Command */
 /*                    */
 
-git remote add origin url_of_remote_repository
-
+git remote add origin url_of_remote_repository: define the remote repository to pull or push
+git push origin master: push master branch to origin repository in GitHub
+git pull origin master: pull master branch from origin repository
 
 
 /*                    */
