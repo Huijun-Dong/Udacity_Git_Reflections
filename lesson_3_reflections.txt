@@ -1,0 +1,13 @@
+/*     Beginning      */
+/* Useful Git Command */
+/*                    */
+
+git remote add origin url_of_remote_repository
+
+
+
+/*                    */
+/* Useful Git Command */
+/*     End            */
+
+
